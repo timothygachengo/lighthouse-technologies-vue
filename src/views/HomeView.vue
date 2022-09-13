@@ -353,10 +353,13 @@ export default defineComponent({
         flex: 1;
         align-items: flex-start;
         justify-content: flex-start;
+        border-left: 1px solid var(--border-color);
+        height: 2.5vh;
+        padding-left: 2.5vw;
 
         img {
             width: 3.2vw;
-            margin-top: -5%;
+            margin-top: -4%;
         }
 
         p {
