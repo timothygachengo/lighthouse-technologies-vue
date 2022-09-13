@@ -5,22 +5,22 @@
       <img v-else class="nav-img" src="@/assets/images/ho_ho2@3x.png" alt="bottom nav"/>
    </router-link>
 
-  <router-link to="/" class="nav-item">
-    <img v-if="route.path === '/promotions'" class="nav-img" src="@/assets/images/ho_ac1@3x.png" alt="bottom nav"/>
+  <router-link to="/promotion" class="nav-item">
+    <img v-if="route.path === '/promotion'" class="nav-img" src="@/assets/images/ho_ac1@3x.png" alt="bottom nav"/>
     <img v-else class="nav-img" src="@/assets/images/ho_ac2@3x.png" alt="bottom nav"/>
  </router-link>
 
-  <router-link to="/" class="nav-item">
+  <router-link to="/wallet" class="nav-item">
     <img v-if="route.path === '/wallet'" class="nav-img" src="@/assets/images/ho_wa1@3x.png" alt="bottom nav"/>
     <img v-else class="nav-img" src="@/assets/images/ho_wa2@3x.png" alt="bottom nav"/> 
   </router-link>
 
-  <router-link to="/" class="nav-item">
+  <router-link to="/customService" class="nav-item">
     <img v-if="route.path === '/customService'" class="nav-img" src="@/assets/images/ho_co1@3x.png" alt="bottom nav"/>
     <img v-else class="nav-img" src="@/assets/images/ho_co2@3x.png" alt="bottom nav"/> 
   </router-link>
 
-  <router-link to="/" class="nav-item">
+  <router-link to="/profile" class="nav-item">
     <img v-if="route.path === '/profile'" class="nav-img" src="@/assets/images/ho_my1@3x.png" alt="bottom nav"/>
     <img v-else class="nav-img" src="@/assets/images/ho_my2@3x.png" alt="bottom nav"/> 
   </router-link>
@@ -49,15 +49,15 @@ export default defineComponent({
 .bottom-nav {
     position: fixed;
     bottom: 15px;
-    width: 98%;
-    height: 60px;
+    width: 95vw;
+    height: 13vw;
     box-shadow: 1px 0 1.06667vw 1px #1a1a1a;
     background-color: var(--bg-secondary-color);
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-top: 1px solid #333;
-    margin: 0 5px;
+    margin: 0 8px;
     border-radius: 45px;
     z-index: 100;
 

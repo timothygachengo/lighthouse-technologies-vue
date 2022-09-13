@@ -37,6 +37,12 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+  user-select: none;
+}
+
+img {
+  user-select: none;
+  pointer-events: none;
 }
 
 [v-cloak] {

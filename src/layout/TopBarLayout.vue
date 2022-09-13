@@ -57,10 +57,12 @@ header {
     }
     .title {
         flex: 1;
+        display: flex;
+        align-items: center;
         
         img  {
-            width: 35vw;
-            height: 15vw;
+            width: 100px;
+            height: 60px;
         }
     }
     

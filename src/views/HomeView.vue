@@ -376,13 +376,15 @@ export default defineComponent({
     margin-top: 3%;
     display: flex;
     flex-grow: 1;
+    
 
     .sidebar {
-        height: 90vw;
+        height: 80vw;
         overflow-x: hidden;
         overflow-y: scroll;
         padding-right: 2.2vw;
-        margin-bottom: 6%;
+        margin-bottom: 10%;
+        
         -ms-overflow-style: none;
         scrollbar-width: none;
 
@@ -416,7 +418,7 @@ export default defineComponent({
     .game-brands {
         position: relative;
         flex-grow: 1;
-        margin-bottom: 3vh;
+        margin-bottom: 11.5%;
 
         .game-brand-category {
             width: 100%;
