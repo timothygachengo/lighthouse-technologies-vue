@@ -57,8 +57,8 @@ export default defineComponent({
     justify-content: space-around;
     align-items: center;
     border-top: 1px solid #333;
-    margin: 0 8px;
-    border-radius: 45px;
+    margin: 0 1.5vw;
+    border-radius: 7vw;
     z-index: 100;
 
     .nav-item {
