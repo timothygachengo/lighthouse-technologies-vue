@@ -257,7 +257,7 @@ export default defineComponent({
 
 .banner-images-container {
     border-radius: var(--border-radius);
-    height: 180px;
+    height: 45vw;
 }
 
 .banner-image {
