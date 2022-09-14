@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="topbar">
     <div class="topbar-item notifications">
         <button>
             <img src="../assets/images/ho_me@2x.png" alt="Notifications icon"/>
